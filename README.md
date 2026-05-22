@@ -1,2 +1,12 @@
-# RITMAA-Random-Information-Topological-Matrix-Audio-Analysis
-RITMAA: Advanced Python framework for macro-structural &amp; topological decomposition of music catalogs. Uses Random Matrix Theory, Shannon-Fisher complexity, and Skorokhod spaces (D[0, T]) to isolate systemic metaphoric patterns ("the contest formula") from acoustic noise in a non-linear statistical matrix space.
+# RITMAA: Random Information Topological Matrix Audio Analysis
+
+**RITMAA** is a high-performance computing framework designed for the macro-structural and topological decomposition of competitive audio catalogs (e.g., Eurovision song banks). By completely abstracting traditional time-domain amplitude profiles and frequency-domain spectral metrics, the framework shifts the analytical paradigm into a non-linear statistical complexity meta-space to isolate underlying, systemic metaphoric patterns ("the contest formula") from random acoustic noise.
+
+## 🧠 Core Methodology Architecture (AET-RMT & Skorokhod Topology)
+
+The framework operates on a multi-layered mathematical pipeline to formalize cognitive and musical metaphors into rigorous topological invariants:
+
+* **Audio Entropyc Mapping (Information Space):** Raw signals are projected into a bivariate informational meta-space using joint **Shannon Entropy ($H$)** to evaluate global structural chaos/uncertainty, paired with **Fisher Information ($F$)** to capture localized transient gradients. This maps the metaphor of *information density and structural complexity*.
+* **Skorokhod Space Transitions ($D[0, T]$):** The temporal evolution of the joint $H/F$ complexity vectors is formally modeled as càdlàg processes within a non-linear **Skorokhod topology**. This allows the framework to mathematically accommodate and robustly preserve sudden musical discontinuities—such as sharp beat impacts, vocal explosions, and structural drops—without encountering topological breakdown or boundary smoothing, accurately capturing the metaphor of *dramatic temporal shifts*.
+* **Spectral Matrix Filtering (Random Matrix Theory):** Utilizing global catalog cross-covariance matrices ($X \in \mathbb{R}^{N \times T}$), `RITMAA` applies **Random Matrix Theory (RMT)** governed by the **Marchenko-Pastur (MP)** distribution law. The engine computes a strict theoretical noise edge ($\lambda_+$) to identify the exact number of stable system signals (Eigenmodes), separating the *systemic metaphoric consensus of the catalog* from irrelevant individual acoustic noise bulk.
+* **Phase-Space Attractor Topology:** Denoised low-rank inversions are projected onto square **Korolyuk Phase Space Profiles** ($c[n]$ vs. $c[n+1]$). The orbital geometries and loop closures of these attractors act as clear topological invariants to map the metaphor of *structural audio stability and orbital recurrence*.
