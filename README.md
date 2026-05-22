@@ -4,7 +4,7 @@
 
 ## 🧠 Core Methodology Architecture (AET-RMT & Skorokhod Topology)
 
-The framework operates on a multi-layered mathematical pipeline to formalize cognitive and musical metaphors into rigorous topological invariants:
+The framework is a Eurovision 2026 “Bangaranga”-inspired study operating on a multi-layered mathematical pipeline designed to formalize cognitive and musical metaphors into rigorous topological invariants.
 
 * **Audio Entropyc Mapping (Information Space):** Raw signals are projected into a bivariate informational meta-space using joint **Shannon Entropy ($H$)** to evaluate global structural chaos/uncertainty, paired with **Fisher Information ($F$)** to capture localized transient gradients. This maps the metaphor of *information density and structural complexity*.
 * **Skorokhod Space Transitions ($D[0, T]$):** The temporal evolution of the joint $H/F$ complexity vectors is formally modeled as càdlàg processes within a non-linear **Skorokhod topology**. This allows the framework to mathematically accommodate and robustly preserve sudden musical discontinuities—such as sharp beat impacts, vocal explosions, and structural drops—without encountering topological breakdown or boundary smoothing, accurately capturing the metaphor of *dramatic temporal shifts*.
