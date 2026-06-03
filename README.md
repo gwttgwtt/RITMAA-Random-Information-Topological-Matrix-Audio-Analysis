@@ -1,12 +1,53 @@
 # RITMAA: Random Information Topological Matrix Audio Analysis
 
-**RITMAA** is a high-performance computing framework designed for the macro-structural and topological decomposition of competitive audio catalogs (e.g., Eurovision song banks). By completely abstracting traditional time-domain amplitude profiles and frequency-domain spectral metrics, the framework shifts the analytical paradigm into a non-linear statistical complexity meta-space to isolate underlying, systemic metaphoric patterns ("the contest formula") from random acoustic noise.
+[![Signal Processing](https://img.shields.io/badge/Journal-Signal%20Processing%20%28Elsevier%29-blue.svg)](https://www.journals.elsevier.com/signal-processing)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
 
-## 🧠 Core Methodology Architecture (AET-RMT & Skorokhod Topology)
+**RITMAA** is a deterministic, high-performance computing framework designed for macrostructural recovery, topological alignment, and compositional lineage reconstruction within high-entropy audio signal systems. 
 
-The framework is a Eurovision 2026 “Bangaranga”-inspired study operating on a multi-layered mathematical pipeline designed to formalize cognitive and musical metaphors into rigorous topological invariants.
+Unlike traditional Music Information Retrieval (MIR) toolkits that rely on shallow acoustic similarity or black-box deep learning embeddings, **RITMAA** operates strictly on information-theoretic observables combined with Random Matrix Theory (RMT) and elastic time-warping in Skorokhod spaces. The system is specifically engineered to bypass industrial mastering noise (multi-band brick-wall compression, transients) and isolate the underlying invariant geometric skeleton ("compositional germ") of entire discographies or large-scale musical corpora.
 
-* **Audio Entropyc Mapping (Information Space):** Raw signals are projected into a bivariate informational meta-space using joint **Shannon Entropy ($H$)** to evaluate global structural chaos/uncertainty, paired with **Fisher Information ($F$)** to capture localized transient gradients. This maps the metaphor of *information density and structural complexity*.
-* **Skorokhod Space Transitions ($D[0, T]$):** The temporal evolution of the joint $H/F$ complexity vectors is formally modeled as càdlàg processes within a non-linear **Skorokhod topology**. This allows the framework to mathematically accommodate and robustly preserve sudden musical discontinuities—such as sharp beat impacts, vocal explosions, and structural drops—without encountering topological breakdown or boundary smoothing, accurately capturing the metaphor of *dramatic temporal shifts*.
-* **Spectral Matrix Filtering (Random Matrix Theory):** Utilizing global catalog cross-covariance matrices ($X \in \mathbb{R}^{N \times T}$), `RITMAA` applies **Random Matrix Theory (RMT)** governed by the **Marchenko-Pastur (MP)** distribution law. The engine computes a strict theoretical noise edge ($\lambda_+$) to identify the exact number of stable system signals (Eigenmodes), separating the *systemic metaphoric consensus of the catalog* from irrelevant individual acoustic noise bulk.
-* **Phase-Space Attractor Topology:**  RITMAA projects low-rank entropy-compressed audio manifolds into Korolyuk-type phase-space attractors (c[n] vs. c[n+1]). The resulting orbital trajectories and recurrence structures reveal stable topological patterns of collective audio dynamics and temporal coherence.
+---
+
+## 🛠 Core Computational Architecture
+
+The framework is divided into three distinct operational layers, allowing for non-linear analysis and information-driven signal synthesis:
+
+### 1. Vectorized Information Space Mapping
+* **Shannon Distribution Entropy ($H$):** Measures macrostructural structural uncertainty over adaptive segments ($256 \le N_{seg} \le 65536$).
+* **Gradient-Based Fisher Information ($F_{max}$):** Tracks micro-temporal boundary volatility, percussive attacks, and vocal flow transients.
+* **Permutation Entropy over RMS Envelopes ($\text{PE}_{RMS}$):** Acts as an amplitude demodulator, extracting syntactic phrasing complexity and speech-rhythm flow directly from the acoustic envelope while normalizing for mastering gain variance.
+
+### 2. Dual Marchenko–Pastur Eigen-Decomposition
+* **Global Mode:** Builds an $M \times T$ (songs × segments) observation space, projecting the cross-track empirical covariance matrix against the analytical RMT noise bound:
+    $$\lambda_+ = \sigma^2(1 + \sqrt{M/T})^2$$
+    Eigenvalues exceeding $\lambda_+$ are decoupled as deterministic structural archetypes, stripping away the producer's acoustic signature.
+* **Vertical Packet Mode:** Computes localized micro-RMT thresholds across all tracks simultaneously at a single timestamp, mapping the continuous time-evolution of collective structural events.
+
+### 3. Elastic Resynthesis and Automated Deviation Radar
+* **Information-Driven Audio Filtering:** Uses the reconstructed clean matrix $X_{rec}$ to dynamically scale segmental gain, outputting audio artifacts filtered by collective archetype presence.
+* **MP Archetype Collage:** Executes maximum-likelihood tracking across the structural manifold ($t_{winner} = \arg\max_i [X_{rec}(i,t)]$) to synthesize a single continuous generative composition using physical segments exclusively from the dominant tracks.
+* **Skorokhod Discrepancy Warping:** Computes micro-temporal synchronization offsets ($\tau$) against an architectural blueprint. A non-linear **Hysteresis Deviation Detector** maps the structural drift to throw an automated radar-style alarm whenever a track breaks free from the collective archetype.
+
+---
+
+## 🚀 Repository Directory Structure
+
+* `view_Sound_MP_CPU_1_MAIN_EXPORT.py`: Main GUI Application. Handles bulk audio extraction, dual-mode Marchenko–Pastur decomposition, CSV/PDF academic report generation, and triggers the audio filtering / collage engines.
+* `skorokhod_viewer.py`: Elastic Warping Visualizer. Loads exported `.npz` structural matrices, executes Numba-accelerated Sinkhorn optimal transport, tracks Scale-Stabilized Soliton Coherence Indices ($SCI$), and plots Korolyuk phase portraits.
+* `Entropy_Tester.py`: Vectorized Single-File Explorer. A standalone, high-speed validator featuring the newly integrated 9-row Shannon-Fisher-Permutation matrix stack.
+
+---
+
+## 📦 Installation
+
+Ensure you have a clean Python installation (preferably inside a virtual environment).
+
+```bash
+# Clone the repository
+git clone [https://github.com/gwttgwtt/RITMAA-Random-Information-Topological-Matrix-Audio-Analysis.git](https://github.com/gwttgwtt/RITMAA-Random-Information-Topological-Matrix-Audio-Analysis.git)
+cd RITMAA-Random-Information-Topological-Matrix-Audio-Analysis
+
+# Install dependencies
+pip install numpy scipy pandas soundfile matplotlib
