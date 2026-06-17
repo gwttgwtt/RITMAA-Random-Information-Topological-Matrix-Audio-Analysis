@@ -16,7 +16,7 @@ The figure below illustrates the complete RITMAA processing pipeline:
 Shannon–Fisher trajectories, Marchenko–Pastur mode extraction,
 Skorokhod alignment, and the resulting structural similarity matrix.
 
-![Eurovision Example](eurovision_pipeline.png)
+![Eurovision Example](Eurovosion_MP_1.png)
 
 ## 🛠 Core Computational Architecture
 
