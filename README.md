@@ -10,6 +10,14 @@ Unlike traditional Music Information Retrieval (MIR) toolkits that rely on shall
 
 ---
 
+## Eurovision Exampl
+
+The figure below illustrates the complete RITMAA processing pipeline:
+Shannon–Fisher trajectories, Marchenko–Pastur mode extraction,
+Skorokhod alignment, and the resulting structural similarity matrix.
+
+![Eurovision Example](eurovision_pipeline.png)
+
 ## 🛠 Core Computational Architecture
 
 The framework is divided into three distinct operational layers, allowing for non-linear analysis and information-driven signal synthesis:
