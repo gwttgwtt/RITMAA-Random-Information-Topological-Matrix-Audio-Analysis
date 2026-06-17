@@ -18,7 +18,7 @@ Audio
 → Structural similarity matrix
 ---
 
-## Eurovision Exampl
+## Eurovision 2026 Example
 
 The figure below illustrates the complete RITMAA processing pipeline:
 Shannon–Fisher trajectories, Marchenko–Pastur mode extraction,
