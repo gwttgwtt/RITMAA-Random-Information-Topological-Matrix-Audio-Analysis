@@ -8,6 +8,14 @@
 
 Unlike traditional Music Information Retrieval (MIR) toolkits that rely on shallow acoustic similarity or black-box deep learning embeddings, **RITMAA** operates strictly on information-theoretic observables combined with Random Matrix Theory (RMT) and elastic time-warping in Skorokhod spaces. The system is specifically engineered to bypass industrial mastering noise (multi-band brick-wall compression, transients) and isolate the underlying invariant geometric skeleton ("compositional germ") of entire discographies or large-scale musical corpora.
 
+Pipeline:
+
+Audio
+→ Shannon–Fisher trajectories
+→ Marchenko–Pastur decomposition
+→ Significant mode extraction
+→ Skorokhod alignment
+→ Structural similarity matrix
 ---
 
 ## Eurovision Exampl
